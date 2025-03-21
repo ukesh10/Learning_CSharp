@@ -1,0 +1,43 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio and VS Code specific files
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.log
+
+# Rider / JetBrains files
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs, database, and temp files
+*.log
+*.bak
+*.db
+*.sqlite
+*.cache
+*.tmp
+.DS_Store
+
+# Publish outputs
+Publish/
+
+# Azure DevOps, Rider, and other IDE-specific files
+*.sqlproj.user
+.project/
+
+# Debugging
+.vscode/test.*
+.vscode/launch.json
+.vscode/tasks.json
+.env
