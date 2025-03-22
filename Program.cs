@@ -1,13 +1,10 @@
-﻿using System;
-
-namespace LearningCSharp
+﻿namespace LearningCSharp;
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            Console.WriteLine("Hello, World!");
-        }
+       // Strings.ReverseString.Run();
+       // Strings.PaliandromCheck.Run();
+       Strings.FindDuplicates.Run();
     }
 }
-
